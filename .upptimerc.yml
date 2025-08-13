@@ -24,7 +24,8 @@ sites:
     __dangerous__body_down_if_text_missing_2: '"height":'
     __dangerous__body_down_if_text_missing_3: '"runes_count":'  
   - name: Titan Public TCP [Testnet] Status (https://titan-public-tcp.test.arch.network:3030)
-    url: tcp://titan-public-tcp.test.arch.network:3030
+    check: "tcp-ping"
+    url: titan-public-tcp.test.arch.network
     port: 3030
 status-website:
   baseUrl: /upptime
