@@ -6,11 +6,11 @@ sites:
     url: https://arch.network
 
 status-website:
-  # remove CNAME while testing
+  # IMPORTANT: no CNAME while testing
   # cname: ""
-  baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  baseUrl: /uptime
   name: Arch Network Status
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: "**Status**"
   introMessage: Uptime and response time for our public services.
   navbar:
