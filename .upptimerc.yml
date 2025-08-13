@@ -27,11 +27,11 @@ sites:
     check: "tcp-ping"
     url: titan-public-tcp.test.arch.network
     port: 3030
-  - name: Arch Bitcoin Node (regtest)
+  - name: Arch Bitcoin Node [regtest] (bitcoin-node.dev.aws.archnetwork.xyz:18443 u:bitcoin p:428bae8f3c94f8c39c50757fc89c39bc7e6ebc70ebf8f618)
     check: "tcp-ping"
     url: bitcoin-node.dev.aws.archnetwork.xyz
     port: 18443
-  - name: Arch Bitcoin Node (testnet4)
+  - name: Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332 u:bitcoin p:uU1taFBTUvae96UCtA8YxAepYTFszYvYVSXK8xgzBs0)
     check: "tcp-ping"
     url: bitcoin-node.test.aws.archnetwork.xyz
     port: 49332
