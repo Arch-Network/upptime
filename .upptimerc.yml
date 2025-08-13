@@ -1,14 +1,13 @@
-owner: Arch-Network          # <— your GitHub username/org
-repo: upptime
+owner: arch-network
+repo: uptime
 
 sites:
   - name: Arch Network
     url: https://arch.network
 
 status-website:
-  # IMPORTANT: no CNAME while testing
-  # cname: ""
-  baseUrl: /
+  # leave CNAME unset while testing
+  baseUrl: /uptime
   name: Arch Network Status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: "**Status**"
