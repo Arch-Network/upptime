@@ -1,13 +1,18 @@
 owner: Arch-Network
 repo: upptime
-
 sites:
   - name: Arch Network
     url: https://arch.network
-
+  - name: Arch RPC Gamma
+    url: https://rpc-gamma.test.arch.network
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+    body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
+    expectedStatusCodes:
+      - 200
 status-website:
-  baseUrl: /upptime        # REQUIRED for project pages under github.io
-  # do NOT set cname yet
+  baseUrl: /upptime
   name: Arch Network Status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: "**Status**"
