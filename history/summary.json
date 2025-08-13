@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 624,
-    "timeDay": 624,
-    "timeWeek": 624,
-    "timeMonth": 624,
-    "timeYear": 624,
+    "time": 636,
+    "timeDay": 636,
+    "timeWeek": 636,
+    "timeMonth": 636,
+    "timeYear": 636,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/rpc-gamma.test.arch.network.ico",
     "slug": "arch-rpc-gamma",
     "status": "down",
-    "uptime": "6.64%",
-    "uptimeDay": "6.64%",
-    "uptimeWeek": "6.64%",
-    "uptimeMonth": "6.64%",
-    "uptimeYear": "6.64%",
+    "uptime": "0.06%",
+    "uptimeDay": "0.06%",
+    "uptimeWeek": "0.06%",
+    "uptimeMonth": "0.06%",
+    "uptimeYear": "0.06%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-08-13": 0
+      "2025-08-13": 8
     }
   }
 ]
