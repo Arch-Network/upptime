@@ -1,7 +1,7 @@
 owner: Arch-Network
 repo: upptime
 sites:
-  - name: Arch Network
+  - name: Arch Network Official Web Site
     url: https://arch.network
   - name: Arch RPC Beta (https://rpc-beta.test.arch.network)
     url: https://rpc-beta.test.arch.network
@@ -27,6 +27,14 @@ sites:
     check: "tcp-ping"
     url: titan-public-tcp.test.arch.network
     port: 3030
+  - name: Arch Bitcoin Node (regtest)
+    check: "tcp-ping"
+    url: bitcoin-node.dev.aws.archnetwork.xyz
+    port: 18443
+  - name: Arch Bitcoin Node (testnet4)
+    check: "tcp-ping"
+    url: bitcoin-node.test.aws.archnetwork.xyz
+    port: 49332
 status-website:
   baseUrl: /upptime
   name: Arch Network Status
