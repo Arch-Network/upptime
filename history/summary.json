@@ -23,16 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/rpc-gamma.test.arch.network.ico",
     "slug": "arch-rpc-gamma",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "6.64%",
+    "uptimeDay": "6.64%",
+    "uptimeWeek": "6.64%",
+    "uptimeMonth": "6.64%",
+    "uptimeYear": "6.64%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-13": 0
+    }
   }
 ]
