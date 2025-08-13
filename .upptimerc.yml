@@ -6,7 +6,7 @@ sites:
     url: https://arch.network
 
 status-website:
-  baseUrl: /upptime        
+  baseUrl: /upptime        # REQUIRED for project pages under github.io
   # do NOT set cname yet
   name: Arch Network Status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
