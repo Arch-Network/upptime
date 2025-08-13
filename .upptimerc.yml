@@ -35,6 +35,9 @@ sites:
     check: "tcp-ping"
     url: bitcoin-node.test.aws.archnetwork.xyz
     port: 49332
+notifications:
+  - type: slack
+    webhook-url: $SLACK_WEBHOOK_URL
 status-website:
   baseUrl: /upptime
   name: Arch Network Status
