@@ -17,12 +17,15 @@ sites:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
     __dangerous__insecure: true
-  - name: Titan Public [Testnet] Status (https://titan-public-http.test.arch.network/status)
+  - name: Titan Public HTTP [Testnet] Status (https://titan-public-http.test.arch.network/status)
     url: https://titan-public-http.test.arch.network/status
     __dangerous__insecure: true
     __dangerous__body_down_if_text_missing: '"block_tip":'
     __dangerous__body_down_if_text_missing_2: '"height":'
     __dangerous__body_down_if_text_missing_3: '"runes_count":'  
+  - name: Titan Public TCP [Testnet] Status (https://titan-public-tcp.test.arch.network:3030)
+    url: tcp://titan-public-tcp.test.arch.network:3030
+    port: 3030
 status-website:
   baseUrl: /upptime
   name: Arch Network Status
