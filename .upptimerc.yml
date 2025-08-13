@@ -8,7 +8,7 @@ sites:
 status-website:
   # IMPORTANT: no CNAME while testing
   # cname: ""
-  baseUrl: /uptime
+  baseUrl: /
   name: Arch Network Status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: "**Status**"
