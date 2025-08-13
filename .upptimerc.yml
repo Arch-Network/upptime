@@ -11,6 +11,9 @@ sites:
     body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
     expectedStatusCodes:
       - 200
+    __dangerous__body_down_if_text_missing: '"jsonrpc":"2.0"'
+    __dangerous__body_down_if_text_missing_2: '"result":'
+    __dangerous__body_down_if_text_missing_3: '"id":"id"'
 status-website:
   baseUrl: /upptime
   name: Arch Network Status
