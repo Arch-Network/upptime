@@ -10,7 +10,7 @@ sites:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
     __dangerous__insecure: true  
-  - name: Arch RPC Gamma (https://rpc-gamma.test.arch.network)
+  - name: Arch RPC Gamma (https://rpc-gamma.test.arch.network) Version: 0.4.0 6/25/25
     url: https://rpc-gamma.test.arch.network
     method: POST
     headers:
