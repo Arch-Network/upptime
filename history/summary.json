@@ -58,7 +58,7 @@
     "url": "https://titan-public-http.test.arch.network/status",
     "icon": "https://icons.duckduckgo.com/ip3/titan-public-http.test.arch.network.ico",
     "slug": "titan-public-http-testnet-status-https-titan-public-http-test-arch-network-status",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
