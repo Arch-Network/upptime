@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/rpc-beta.test.arch.network.ico",
     "slug": "arch-rpc-beta-https-rpc-beta-test-arch-network",
     "status": "down",
-    "uptime": "97.60%",
-    "uptimeDay": "87.81%",
-    "uptimeWeek": "97.60%",
-    "uptimeMonth": "97.60%",
-    "uptimeYear": "97.60%",
+    "uptime": "97.40%",
+    "uptimeDay": "86.80%",
+    "uptimeWeek": "97.40%",
+    "uptimeMonth": "97.40%",
+    "uptimeYear": "97.40%",
     "time": 260,
     "timeDay": 218,
     "timeWeek": 260,
     "timeMonth": 260,
     "timeYear": 260,
     "dailyMinutesDown": {
-      "2025-08-18": 175
+      "2025-08-18": 190
     }
   },
   {
@@ -42,17 +42,17 @@
     "url": "https://rpc-gamma.test.arch.network",
     "icon": "https://icons.duckduckgo.com/ip3/rpc-gamma.test.arch.network.ico",
     "slug": "arch-rpc-gamma-https-rpc-gamma-test-arch-network-version-0-4-0",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 270,
-    "timeDay": 241,
-    "timeWeek": 270,
-    "timeMonth": 270,
-    "timeYear": 270,
+    "time": 269,
+    "timeDay": 242,
+    "timeWeek": 269,
+    "timeMonth": 269,
+    "timeYear": 269,
     "dailyMinutesDown": {}
   },
   {
