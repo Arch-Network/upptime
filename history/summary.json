@@ -22,18 +22,21 @@
     "url": "https://rpc-beta.test.arch.network",
     "icon": "https://icons.duckduckgo.com/ip3/rpc-beta.test.arch.network.ico",
     "slug": "arch-rpc-beta-https-rpc-beta-test-arch-network",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "84.11%",
+    "uptimeDay": "6.41%",
+    "uptimeWeek": "84.11%",
+    "uptimeMonth": "84.11%",
+    "uptimeYear": "84.11%",
     "time": 260,
-    "timeDay": 244,
+    "timeDay": 246,
     "timeWeek": 260,
     "timeMonth": 260,
     "timeYear": 260,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-19": 822,
+      "2025-08-18": 525
+    }
   },
   {
     "name": "Arch RPC Gamma (https://rpc-gamma.test.arch.network) Version: 0.4.0",
