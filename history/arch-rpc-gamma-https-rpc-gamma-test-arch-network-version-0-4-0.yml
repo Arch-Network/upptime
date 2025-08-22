@@ -1,7 +1,7 @@
 url: https://rpc-gamma.test.arch.network
-status: down
-code: 502
-responseTime: 171
-lastUpdated: 2025-08-22T11:46:41.236Z
+status: up
+code: 200
+responseTime: 339
+lastUpdated: 2025-08-22T11:54:18.940Z
 startTime: 2025-08-15T14:14:45.224Z
 generator: Upptime <https://github.com/upptime/upptime>
