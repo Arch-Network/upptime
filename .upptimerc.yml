@@ -23,10 +23,10 @@ sites:
     __dangerous__body_down_if_text_missing: '"block_tip":'
     __dangerous__body_down_if_text_missing_2: '"height":'
     __dangerous__body_down_if_text_missing_3: '"runes_count":'  
-  - name: Titan Public TCP [Testnet] Status (https://titan-public-tcp.test.arch.network:3030)
+  - name: Titan Public TCP [Testnet] Status (https://titan-public-tcp.test.arch.network:8080)
     check: "tcp-ping"
     url: titan-public-tcp.test.arch.network
-    port: 3030
+    port: 8080
   - name: Arch Bitcoin Node [regtest] (bitcoin-node.dev.aws.archnetwork.xyz:18443 u:bitcoin p:428bae8f3c94f8c39c50757fc89c39bc7e6ebc70ebf8f618)
     check: "tcp-ping"
     url: bitcoin-node.dev.aws.archnetwork.xyz
