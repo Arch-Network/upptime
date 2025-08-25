@@ -23,7 +23,7 @@ sites:
     __dangerous__body_down_if_text_missing: '"block_tip":'
     __dangerous__body_down_if_text_missing_2: '"height":'
     __dangerous__body_down_if_text_missing_3: '"runes_count":'  
-  - name: Titan Public TCP [Testnet] Status (https://titan-public-tcp.test.arch.network:8080)
+  - name: Titan Public TCP [Testnet] Status (titan-public-tcp.test.arch.network:8080)
     check: "tcp-ping"
     url: titan-public-tcp.test.arch.network
     port: 8080
