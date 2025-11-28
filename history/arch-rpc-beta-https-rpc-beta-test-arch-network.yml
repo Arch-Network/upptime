@@ -1,7 +1,7 @@
 url: https://rpc-beta.test.arch.network
-status: down
-code: 503
-responseTime: 400
-lastUpdated: 2025-11-28T14:39:21.149Z
+status: up
+code: 200
+responseTime: 141
+lastUpdated: 2025-11-28T14:56:02.896Z
 startTime: 2025-08-13T16:33:00.977Z
 generator: Upptime <https://github.com/upptime/upptime>
