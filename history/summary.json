@@ -25,18 +25,19 @@
     "url": "https://rpc-beta.test.arch.network",
     "icon": "https://icons.duckduckgo.com/ip3/rpc-beta.test.arch.network.ico",
     "slug": "arch-rpc-beta-https-rpc-beta-test-arch-network",
-    "status": "up",
-    "uptime": "89.61%",
-    "uptimeDay": "89.48%",
-    "uptimeWeek": "77.60%",
+    "status": "down",
+    "uptime": "89.69%",
+    "uptimeDay": "92.82%",
+    "uptimeWeek": "82.24%",
     "uptimeMonth": "88.19%",
-    "uptimeYear": "89.61%",
+    "uptimeYear": "89.69%",
     "time": 476,
-    "timeDay": 402,
-    "timeWeek": 335,
-    "timeMonth": 324,
+    "timeDay": 495,
+    "timeWeek": 339,
+    "timeMonth": 325,
     "timeYear": 476,
     "dailyMinutesDown": {
+      "2025-12-10": 1,
       "2025-12-09": 151,
       "2025-12-08": 50,
       "2025-12-07": 1073,
@@ -85,8 +86,7 @@
       "2025-09-25": 1440,
       "2025-09-24": 996,
       "2025-09-23": 161,
-      "2025-09-22": 41,
-      "2025-09-20": 13
+      "2025-09-22": 41
     }
   },
   {
@@ -103,7 +103,7 @@
     "time": 242,
     "timeDay": 377,
     "timeWeek": 301,
-    "timeMonth": 321,
+    "timeMonth": 329,
     "timeYear": 242,
     "dailyMinutesDown": {}
   },
