@@ -37,7 +37,7 @@
     "timeMonth": 287,
     "timeYear": 458,
     "dailyMinutesDown": {
-      "2026-02-01": 546,
+      "2026-02-01": 562,
       "2026-01-31": 1440,
       "2026-01-30": 1440,
       "2026-01-29": 1440,
@@ -147,7 +147,7 @@
     "url": "https://rpc-gamma.test.arch.network",
     "icon": "https://icons.duckduckgo.com/ip3/rpc-gamma.test.arch.network.ico",
     "slug": "arch-rpc-gamma-https-rpc-gamma-test-arch-network-version-0-4-0",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
