@@ -3,20 +3,13 @@ repo: upptime
 sites:
   - name: Arch Network Official Web Site
     url: https://arch.network
-  - name: Arch RPC Beta (https://rpc-beta.test.arch.network)
-    url: https://rpc-beta.test.arch.network
+  - name: Arch RPC Testnet (https://rpc.testnet.arch.network)
+    url: https://rpc.testnet.arch.network
     method: POST
     headers:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
     __dangerous__insecure: true  
-  - name: 'Arch RPC Gamma (https://rpc-gamma.test.arch.network) Version: 0.4.0'
-    url: https://rpc-gamma.test.arch.network
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-    body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
-    __dangerous__insecure: true
   - name: Titan Public HTTP [Testnet] Status (https://titan-public-http.test.arch.network/status)
     url: https://titan-public-http.test.arch.network/status
     __dangerous__insecure: true
