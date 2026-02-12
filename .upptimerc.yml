@@ -10,20 +10,16 @@ sites:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":"id","method":"get_block_count","params":[]}'
     __dangerous__insecure: true  
-  - name: Titan Public HTTP [Testnet] Status (https://titan-public-http.test.arch.network/status)
-    url: https://titan-public-http.test.arch.network/status
+  - name: Titan Public HTTP [Testnet] Status (https://titan.testnet.arch.network/status)
+    url: https://titan.testnet.arch.network/status
     __dangerous__insecure: true
     __dangerous__body_down_if_text_missing: '"block_tip":'
     __dangerous__body_down_if_text_missing_2: '"height":'
     __dangerous__body_down_if_text_missing_3: '"runes_count":'  
-  - name: Titan Public TCP [Testnet] Status (titan-public-tcp.test.arch.network:8080)
+  - name: Titan Public TCP [Testnet] Status (titan.testnet.arch.network:8080)
     check: "tcp-ping"
-    url: titan-public-tcp.test.arch.network
-    port: 8080
-  - name: Arch Bitcoin Node [regtest] (bitcoin-node.dev.aws.archnetwork.xyz:18443 u:bitcoin p:428bae8f3c94f8c39c50757fc89c39bc7e6ebc70ebf8f618)
-    check: "tcp-ping"
-    url: bitcoin-node.dev.aws.archnetwork.xyz
-    port: 18443
+    url: titan.testnet.arch.network
+    port: 8080  
   - name: Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332 u:bitcoin p:uU1taFBTUvae96UCtA8YxAepYTFszYvYVSXK8xgzBs0)
     check: "tcp-ping"
     url: bitcoin-node.test.aws.archnetwork.xyz
