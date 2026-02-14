@@ -26,18 +26,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/rpc.testnet.arch.network.ico",
     "slug": "arch-rpc-testnet-https-rpc-testnet-arch-network",
     "status": "down",
-    "uptime": "90.93%",
-    "uptimeDay": "89.17%",
-    "uptimeWeek": "90.93%",
-    "uptimeMonth": "90.93%",
-    "uptimeYear": "90.93%",
+    "uptime": "90.54%",
+    "uptimeDay": "88.66%",
+    "uptimeWeek": "90.54%",
+    "uptimeMonth": "90.54%",
+    "uptimeYear": "90.54%",
     "time": 690,
     "timeDay": 1180,
     "timeWeek": 690,
     "timeMonth": 690,
     "timeYear": 690,
     "dailyMinutesDown": {
-      "2026-02-13": 156
+      "2026-02-14": 6,
+      "2026-02-13": 158
     }
   },
   {
