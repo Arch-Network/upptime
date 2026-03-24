@@ -1,7 +1,7 @@
 url: https://rpc.testnet.arch.network
-status: up
-code: 200
-responseTime: 620
-lastUpdated: 2026-03-24T01:19:13.590Z
+status: down
+code: 502
+responseTime: 5355
+lastUpdated: 2026-03-24T05:21:00.136Z
 startTime: 2026-02-12T19:18:55.990Z
 generator: Upptime <https://github.com/upptime/upptime>
