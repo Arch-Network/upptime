@@ -103,7 +103,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332 u:bitcoin p:uU1taFBTUvae96UCtA8YxAepYTFszYvYVSXK8xgzBs0)",
+    "name": "Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332)",
     "url": "bitcoin-node.test.aws.archnetwork.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "arch-bitcoin-node-testnet4-bitcoin-node-test-aws-archnetwork-xyz-49332-u-bitcoin-p-u-u1ta-fbt-uvae96-u-ct-a8-yx-aep-yt-fsz-yv-yvsxk-8xgz-bs0",
