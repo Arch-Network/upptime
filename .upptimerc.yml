@@ -20,7 +20,10 @@ sites:
     check: "tcp-ping"
     url: titan.testnet.arch.network
     port: 8080  
-  - name: Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332 u:bitcoin p:uU1taFBTUvae96UCtA8YxAepYTFszYvYVSXK8xgzBs0)
+  # NOTE: RPC credentials removed from this label by audit cleanup.
+  # Never commit usernames/passwords inline in monitor names — they are
+  # displayed verbatim on the public status page and in the repo history.
+  - name: Arch Bitcoin Node [testnet4] (bitcoin-node.test.aws.archnetwork.xyz:49332)
     check: "tcp-ping"
     url: bitcoin-node.test.aws.archnetwork.xyz
     port: 49332
